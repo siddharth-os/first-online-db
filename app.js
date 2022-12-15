@@ -6,7 +6,8 @@ const mongoose=require('mongoose');
 const e = require("express");
 
 mongoose.set("strictQuery", false);
-mongoose.connect("mongodb://127.0.0.1:27017/todolistDB");
+// mongoose.connect("mongodb://127.0.0.1:27017/todolistDB");
+mongoose.connect("mongodb+srv://langutajamru:Siddharth3%40@cluster0.jajo5h6.mongodb.net/?retryWrites=true&w=majority");
 
 const app = express();
 
